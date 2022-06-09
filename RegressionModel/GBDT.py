@@ -85,7 +85,7 @@ class GBDT(object):
 
 ### GBDT regression
 class GBDTRegressor(GBDT):
-    def __init__(self, n_estimators=30, learning_rate=0.025, min_samples_split=2,
+    def __init__(self, n_estimators=300, learning_rate=0.025, min_samples_split=2,
                  min_var_reduction=1e3, max_depth=50):
     # def __init__(self, n_estimators=30, learning_rate=0.025, min_samples_split=2,
     #              min_var_reduction=1e8, max_depth=75):
