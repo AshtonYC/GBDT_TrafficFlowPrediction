@@ -4,9 +4,9 @@ This project is aiming to develop a GBDT algorithm that could predict the short-
 
 ## Testing example
 Run the GBDT_reg_test.py to test the model. If you want to test the existing model, comment out the following lines in GBDT_reg_test.py would be fine. 
-*model = GBDTRegressor()
-*model.fit(X_train, y_train, X_valid, y_valid)
-*pickle.dump(model, open("pima.pickle_test_Last3.dat", "wb"))
+* model = GBDTRegressor()
+* model.fit(X_train, y_train, X_valid, y_valid)
+* pickle.dump(model, open("pima.pickle_test_Last3.dat", "wb"))
 
 ## Data split
 The training data and validation data are from 2021, and they are are randomly scrambled and 70% of them are assigned as training data, the rest 30% are the validation data.
