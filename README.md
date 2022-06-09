@@ -13,3 +13,6 @@ The training data and validation data are from 2021, and they are are randomly s
 
 ## Tunable parameter
 The accuracy of the GBDT could be changed by tuning the number of CART esimators, the learning rate, and some stopping criterias in the GBDT.py file. The loss function and the corresponding gradient can be changed in the GBDT.py file.
+
+## Results
+The resulting error is the mean absolute percentage error, and the accuracy is the prediction that with error less than 20%
