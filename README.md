@@ -8,6 +8,9 @@ Run the GBDT_reg_test.py to test the model. If you want to test the existing mod
 * model.fit(X_train, y_train, X_valid, y_valid)
 * pickle.dump(model, open("pima.pickle_test_Last3.dat", "wb"))
 
+## Data
+In the Train and Test file, there are some examples for training and testing data. If you want to test/train more data, please download the original data from the PeMS, and process the data in the similar format. 
+
 ## Data split
 The training data and validation data are from 2021, and they are are randomly scrambled and 70% of them are assigned as training data, the rest 30% are the validation data.
 
